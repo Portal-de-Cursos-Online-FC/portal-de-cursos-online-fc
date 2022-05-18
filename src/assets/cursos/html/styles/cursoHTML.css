@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --pink: #FF046F;
+    --violet: #310e3d;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: var(--violet);
+    color: var(--white);
+}
+
+header .title {
+    text-align: center;
+}
+
+header .title h1 {
+    margin-top: 1rem;
+}
+
+main .main-container {
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+section .lessons-links a {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+section .lessons-links a+a {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+a {
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+a:hover {
+    color: var(--pink);
+}
