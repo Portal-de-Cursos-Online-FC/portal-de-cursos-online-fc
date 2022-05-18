@@ -20,5 +20,8 @@
   "homepage": "https://github.com/FelizardoCaculo/portal-de-cursos-online-F_C#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
