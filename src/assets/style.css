@@ -141,6 +141,10 @@ main .title:hover {
     font-size: 16px;
 }
 
+span {
+    color: var(--pink);
+}
+
 
 /* media queries */
 
