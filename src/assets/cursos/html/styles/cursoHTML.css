@@ -1,53 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --pink: #FF046F;
-    --violet: #310e3d;
+    --violet: #C63BFA;
     --white: #ffffff;
+    --background-color: #310e3d;
+    --background-body: #312f2f;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
     margin: 0;
     padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
-    background-color: var(--violet);
     color: var(--white);
 }
 
-header .title {
+body {
+    background-color: var(--background-body);
+    margin: 0;
+    padding: 0;
+}
+
+#global-container {
+    width: 70%;
+    max-width: 780px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header-container {
+    width: 200px;
+    height: fit-content;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.indice-container {
+    width: 200px;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+}
+
+.sub-title {
     text-align: center;
 }
 
-header .title h1 {
-    margin-top: 1rem;
-}
-
-main .main-container {
-    text-align: center;
-    margin-top: 3rem;
-    margin-left: 2rem;
-}
-
-section .lessons-links a {
+.lessons-links {
+    width: 500px auto;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
+    justify-items: center;
 }
 
-section .lessons-links a+a {
-    margin-top: 2rem;
-    margin-left: 2rem;
+li {
+    list-style: none;
+    width: 350px;
+    margin: 0 auto;
+    line-height: 30px;
 }
 
 a {
     text-align: center;
-    text-align: center;
-    justify-content: center;
-    line-height: 2rem;
 }
 
 a:hover {
     color: var(--pink);
+}
+
+
+
+@media(max-width:780px) {
+    #global-container {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
