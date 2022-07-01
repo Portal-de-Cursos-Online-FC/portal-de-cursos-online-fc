@@ -37,12 +37,23 @@ body {
 }
 
 .title {
-  display: inline;
+  display: block;
   align-items: center;
+  text-align: center;
 }
 
-.title > h1 {
+.audio-instructions {
   text-align: center;
+}
+
+.title > p {
+  text-align: center;
+}
+
+.audio-content {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .main-container {
@@ -90,14 +101,22 @@ ul li {
   margin: 1rem;
 }
 
+.code-example {
+  text-align: center;
+}
+
 .code-preview {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 img {
-  width: 400px;
+  width: 500px;
+  margin: 0 auto;
 }
 
 strong {
@@ -118,7 +137,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
