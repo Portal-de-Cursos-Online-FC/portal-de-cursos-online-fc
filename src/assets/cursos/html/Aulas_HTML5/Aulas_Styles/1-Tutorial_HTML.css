@@ -149,6 +149,7 @@ strong {
 @media (max-width: 460px) {
   #global-container {
     width: 100%;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     display: block;
