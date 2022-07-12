@@ -4,248 +4,181 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>O que é HTML?</title>
+    <title>What is HTML?</title>
     <link rel="stylesheet" href="./Aulas_Styles/2-What_is_HTML.css" />
   </head>
 
   <body>
     <div id="global-container">
       <header class="title">
-        <h1>O que é HTML?</h1>
+        <h1>2<sup>nd</sup> Lesson - What is HTML?</h1>
       </header>
   
       <main class="main-container">
         <section class="main-content">
           <p>
-            <strong>HTML</strong>, é um acrónimo para HyperText Markup Language,
-            que é usada para criar páginas e aplicações web. Vamos ver o que
-            significa <strong>HyperText Markup Language</strong> e
-            <strong>Página Web.</strong>
+            <strong>HTML</strong>, is an acronym which stands for <strong>Hyper Text Markup Language</strong> which is used for creating web pages and web applications. Let's see what is meant by Hyper Text Markup Language, and Web page.
+          </p><br/>
+  
+          <p>
+            <strong>Hyper Text:</strong> Simply means "Text Within Text." A text has a link within it, is a hypertext. Whenever you click on a link which brings you to a new web page, you have clicked on a hyper text. Hyper Text is a way to link two or more web pages (HTML documents) with each other.
+          </p><br/>
+  
+          <p>
+            <strong>Markup Language</strong>, A markup language, is a computer language that is used to apply layout and formatting conventions to a text document. Markup language makes text more interactive and dynamic. It can turn text into images, tables, links, etc.
           </p>
           <br />
   
           <p>
-            <strong>HyperText:</strong> HyperText simplesmente significa "Texto
-            dentro de Texto". Um texto tendo outro ligado a ele, é um hypertexto.
-            <br />Sempre que voce clica em um link que te leva a uma nova página,
-            voce clicou num hypertexto. <br />hypertexto, é uma forma de ligar
-            duas ou mais páginas web (Documentos HTML).
-          </p>
-          <br />
-  
-          <p>
-            <strong>Markup Language</strong>, ou "Linguagem de Marcação" em
-            português, é uma linguagem que o computador usa para ao layout e
-            convenção de formatação para o texto de um documento. A Linguagem de
-            Marcação torna o texto mais interactivo e dinámico. Ela pode virar um
-            texto em imagens, tabelas, links, etc.
-          </p>
-          <br />
-  
-          <p>
-            <strong>Web Page</strong>, ou Página Web, é um documento que é
-            comummente estrito em HTML e traduzido por um navegador web(Web
-            Browser). A página web pode ser identificada entrando numa "URL". A
-            página web pode ser do tipo estático ou dinámico.
+            <strong>Web Page</strong>, A web page is a document which is commonly written in HTML and translated by a web browser. A web page can be identified by entering an URL. A web page can be of the static or dynamic type.
             <strong>
-              Com a ajuda do HTML podemos apenas criar páginas web estáticas </strong
+              With the help of HTML only, we can create static web pages.
+            </strong
             >.
-          </p>
-          <br />
+          </p><br/>
   
           <p>
-            Um documento <strong>HTML</strong> é formado de muitas tags
-            <strong>HTML</strong> e cada tag contem um conteudo diferente.
-          </p>
-          <br />
+            Hence, HTML is a markup language which is used for creating attractive web pages with the help of styling, and which looks in a nice format on a web browser. An HTML document is made of many HTML tags and each HTML tag contains diferent content.
+          </p><br/>
   
-          <p><strong>Vamos ver um código simples de "HTML"</strong></p>
-          <br />  
-          <div class="code-preview1">
-            <img src="/code_images/estrutura_basica_pagina_html.png" alt="Imagem de código HTML">
+          <p>
+            <strong>Let's see a simple example of "HTML"</strong>
+          </p><br/>  
+          <div class="code-preview">
+            <img src="/code_images/home_page.png" alt="Imagem de código HTML">
           </div>
   
           <p>
-            Escreva o código da demonstração cima no seu editor de texto para ver
-            o resultado numa página web.
+            Try it now.
           </p>
         </section>
   
         <section class="secondary-content">
           <div class="code-explanation">
-            <h2>Descrição do exemplo HTML</h2>
+            <h2>Description of HTML Example</h2>
   
             <p class="tag-explain">
               <strong>
                 <pre class="pre-inline">&lsaquo;!DOCTYPE&rsaquo;</pre>
               </strong>
-              ==> Esta tag define o tipo de documento, ou seja, dá instruções ao
-              navegador sobre a versão do documento HTML.
+              ==> It defines the document type or it instruct the browser about the version of HTML.
             </p><br>
     
             <p class="tag-explain">
               <strong><pre class="pre-inline">&lsaquo;html&rsaquo;</pre></strong>
-              ==> Esta tag informa o navegador que esgte é um documento HTML. o
-              texto deentro da tag html descreve o documento web. Esta tag é o
-              container para todos outros elementos excepto "!DOCTYPE".
+              ==> This tag informs the browser that it is an HTML document. Text between html tag  
+              is an HTML document. It is a container for all other elements os HTML except "<code>!DOCTYPE</code>".
             </p><br>
     
             <p class="tag-explain">
               <strong><pre class="pre-inline">&lsaquo;head&rsaquo;</pre></strong>
-              ==> Este deve ser o primeiro elemento dentro do elemento "html", ele
-              contem os meta dados (informações sobre o documento). Deve estar
-              fechada antes de abrir a tag "body".
+              ==> It should be the first element inside the "html" element, which contains the metadata (information about the document). It must be closed before the "body" tag opens.
             </p><br>
     
             <p class="tag-explain">
               <strong><pre class="pre-inline">&lsaquo;title&rsaquo;</pre></strong>
-              ==> Como o nome sugere, esta tag é usada para adicionar o título da
-              página HTML que aparece no topo da janela do navegador. Deve ser
-              colocada dentro da tag "head".
+              ==> As its name suggested. it is used to add title of that HTML page which appears at the top of the browser window. It must be placed inside the "head" tag and should close immediately.(Optional)
             </p><br>
     
             <p class="tag-explain">
               <strong><pre class="pre-inline">&lsaquo;body&rsaquo;</pre></strong>
-              ==> O texto dento desta tag, descreve o conteúdo do corpo da página
-              que é visível para o utilizador final. esta tag contem o principal
-              conteúdo do documento HTML.
+              ==> Text between "body" tag describes the body content of the page that is visible to the end user. This tag contains the main content of the HTML document. 
             </p><br>
     
             <p class="tag-explain">
               <strong><pre class="pre-inline">&lsaquo;h1&rsaquo;</pre></strong> ==>
-              O texto dentro da tah "h1" descreve o primeiro nível de cabeçalho da
-              página web.
+              Text between "h1" tag describes the first level heading os the webpage.
             </p><br>
     
             <p class="tag-explain">
-              <strong><pre class="pre-inline">&lsaquo;p&rsaquo;</pre></strong> ==> O
-              texto dentro da tag "p" descreve o parágrafo de uma página web.
+              <strong><pre class="pre-inline">&lsaquo;p&rsaquo;</pre></strong> ==> Text between "p" tag describes the paragraph of the webpage.
             </p><br>
           </div>
         </section>
   
         <section class="third-section">
-          <h2>Um Breve Historial do HTML</h2>
+          <h2>Brief History of HTML</h2>
   
           <p>
-            Nos anos 80, o fisico <strong>Tim Berners-Lee</strong> que era
-            umcontratante independente na CERN, propós um sistema para a "CERN
-            researchers". em 1989, ele escreveu um "memo" propondo uma internet
-            baseada no sistema de hypertexto.
-          </p>
-          <br />
+            In the late 1980's, a physicist, <strong>Tim Berners-Lee</strong> who was a contractor at CERN, proposed a system for "CERN" researchers". in 1989, he wrote a memo proposing an internet based hypertext system.
+          </p><br/>
   
           <p>
-            <strong>Tim Berners-Lee</strong> é conhecido como o pai do HTML. A
-            primeira descrição disponível do HTML foi um documento chamado "HTML
-            Tags" proposto por Tim no ano 1991. A última versão do HTML é o HTML5.
-            que aprenderemos depois neste tutorial.
-          </p>
-          <br />
+            <strong>Tim Berners-Lee</strong> is known as the father of HTML. The first avaliable description of HTML was a document called "HTML Tags" proposed by Tim in the late 1991. The latest version of HTML is HTML5. which we will learn later in this course.
+          </p><br/>
         </section>
   
         <section>
-          <h2>Versões do HTML</h2>
+          <h2>HTML Versions</h2>
   
           <p>
-            Desde o tempo que o HTML foi inventado, há muitas versões do HTML no
-            mercado, A breve introdução sobre as versões do HTML são dadas abaixo:
+            Since the time HTML was invented there are lots of HTML versions in market, the brief introduction about the HTML version is given below:
+          </p><br/>
+  
+          <p>
+            <strong>HTML 1.0 : </strong> The first version of HTML was 1.0, which was the barebones version of HTML language, and it was released in 1991.
+          </p><br/>
+  
+          <p>
+            <strong>HTML 2.0 : </strong> This was the next version which was released in 1995, and it was standard language version for website design. HTML 2.0 was able to support extra features such as form-based file upload, form elements such as text box, option button, etc.
+          </p><br/>
+  
+          <p>
+            <strong>HTML 3.2 : </strong> This version was published by W3C in early 1997. This version was capable of creating tables and providing support for extra options for form elements. It can also support a web page with complex mathematical equations. It became an official standard for any browser till January 1997. Today it is practically supported by most of the browsers.
+          </p><br/>
+  
+          <p>
+            <strong>HTML 4.01 : </strong> This Version was released on December 1999, and it is a very stable version of HTML language. This version is the current official standard, and it provides added support for stylesheets (CSS) and scripting ability for various multimedia elements.
           </p>
           <br />
   
           <p>
-            <strong>HTML 1.0 : </strong> A primeira versão do HTML foi 1.0, que
-            foi a versão esqueleto da linguage HTML, e foi lançada em 1991.
-          </p>
-          <br />
-  
-          <p>
-            <strong>HTML 2.0 : </strong> Esta foi a versão seguninte, que foi
-            lançada em 1995, e foi a versão padrão da linguagem para o design dos
-            sites. HTML 2.0 foi capaz de suportar atributos extras, tais como:
-            formularios baseados no carregamento de ficheiros, formulário de
-            elementos tais como caixa de texto, opção de botão, etc.
-          </p>
-          <br />
-  
-          <p>
-            <strong>HTML 3.2 : </strong> Esta versão foi publicada pela W3C em
-            1997. Esta versão foi capaz de criar tabelas e providenciar suporte
-            para opções extras para elementos de formulários. Ela pode também
-            suportar uma página web com equações matemáticas complexas. Tornou-se
-            um padrão oficial para qualquer navegador até 1997. Hoje é
-            praticamente suportada pela maioria dos navegadores
-          </p>
-          <br />
-  
-          <p>
-            <strong>HTML 4.01 : </strong> Esta versão foi lançada em Dezembro de 1999, 
-            e ela é uma versão muito estável da linguagem HTML. Esta versão é o actual 
-            padrão oficial, e ela provê suporte adicionado para as folhas de estilo "CSS" 
-            e habilidade de script para vários elementos de multimedia.   
-          </p>
-          <br />
-  
-          <p>
-            <strong>HTML5 : </strong> é a versão mais recente da linguagem de Marcação de 
-            Hypertexto. O primeiro projecto dessa versão foi anunciado em Janeiro de 2008.
-            Há duas maiores organizações, uma é a <strong>"W3C"</strong> 
-            (World Wide Web Consortium), e a outra é a <strong>"WHATWG</strong> 
-            (Web Hypertext Application Tecnology Working Group)
-            que estão envolvidos no desenvolvimento da versão 5 do HTML, 
-            e ainda, está em desenvolvimento.
-          </p>
-          <br />
+            <strong>HTML5 : </strong> This is the newest version of Hypertext Markup Language. The first draft of this version was announced in January 2008. There are two major organizations one is <strong>"W3C"</strong> (World Wide Web Consortium), and another one is <strong>"WHATWG</strong> 
+            (Web Hypertext Application Tecnology Working Group) which are involved in the development of HTML5 versions, and still, it is under development.
+          </p><br/>
         </section>
   
         <section>
   
           <h2>
-            Características do HTML
+            Features of HTML
           </h2>
   
           <ol class="html-features">
   
             <li>
-              1 - É uma linguagem muito fácil e simples. Ela pode ser facilmente entendida e 
-              modificada.
+              1 - It is a very easy and simple language. It can be easy understood and modified.
             </li><br>
   
             <li>
-              2 - É muito fácil para fazer uma apresentação efectiva com o HTML porque ela 
-              tem muitas tags de formatação. 
+              2 - it is very easy to make an effective presentation with HTML because it has a lot of formatting tags.
             </li><br>
   
             <li>
-              3 - Ela é uma linguagem de marcação, assim ela provê uma forma flexível para 
-              desenhar páginas web acompanhadas com o texto. 
+              3 - It is a markup language, so it provides a flexible way to design web pages along with the text. 
             </li><br>
   
             <li>
-              4 - Ela facilita programadores para adicional links na página web (com a tag ancora), 
-              assimela melhora o interesse na navegação do usuário.
+              4 - It facilitates programmers to add a link on the web pages (by html anchor tag), so it enhances the interest of browsing of the user.
             </li><br>
   
             <li>
-              5 - É uma plataforma independente porque ela pode ser apresentada em qualquer plataforma 
-              como: Windows, linux e Macintosh, etc.
+              5 - It is platform-independent because it can be displayed on any platform like Windows, Linux, and Macintosh, etc.
             </li><br>
   
             <li>
-              6 - Facilita o programador para adicionar Gráficos, Videos e Sons para a página web que a 
-              torna mais atrativa e interactiva.
+              6 - It facilitates the programmers to add Graphics, Videos, and Sound to the web pages which makes it more attractive and interactive.
             </li><br>
   
             <li>
-              7 - HTML é uma linguagem sensível a letras Maiúsculas e Minúsculas, que significa, podemos 
-              usar tags tanto maiúsculas ou minúsculas.
+              7 - HTML is a case-sensitive language, which means we can use tags either in lower-case or upper-case.
             </li><br>
   
           </ol>
   
           <p class="note">
             <strong>
-              NOTA: É recomendado escrever todas tags em letras minúsculas para consistência, legibilidade, etc.
+              NOTE: It is recommended to write all tags in lower-case for consistency, readability, etc.
             </strong>
           </p>
   

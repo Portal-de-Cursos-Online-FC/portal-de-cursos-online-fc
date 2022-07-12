@@ -45,6 +45,10 @@ body {
   text-align: center;
 }
 
+sup {
+  font-size: 10px;
+}
+
 .main-container {
   padding: 5px;
 }
@@ -77,7 +81,7 @@ ul li {
   line-height: 1.5rem;
 }
 
-.code-preview1 {
+.code-preview {
     display: flex;
     align-items: center;
     justify-content: center;
