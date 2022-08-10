@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5ª Aula - Elementos HTML</title>
+    <link rel="stylesheet" href="./Aulas_Styles/5-HTML_elements.css" />
+  </head>
+
+  <body>
+    <div id="global-container">
+      <header class="title">
+        <h1>5ª Aula - Elementos HTML</h1>
+      </header>
+  
+      <main class="main-container">
+        <section class="main-content">
+
+          <p>
+            Um ficheiro <acronym title="HyperText Markup Language">HTML</acronym> é feito de elementos. Estes elementos são responsáveis por criar páginas web e define o conteúdo naquela página. Um elemento <acronym title="HyperText Markup Language">HTML</acronym> usualmente consiste de uma tag de abertura <code>&lsaquo;nome da tag&rsaquo;</code>, tag de fechamento <code>&lsaquo;/nome da tag&rsaquo;</code> e o conteúdo inserido entre eles. <strong>Tecnicamente, um elemento é uma colecção de tag de abertura, atributos, tag de fechamento e o conteúdo entr eles.</strong>
+          </p>
+          <br>
+          <p>
+            <strong>Nota:</strong> Alguns elementos não tem tag de fechamento e conteúdo, estes elementos são chamados <strong>elementos vazios ou elementos de auto-fechamento.</strong>
+          </p><br>
+          <p>
+            <strong>Elementos vazios:</strong> Nem todos elementos HTML requerem ter uma tag de abertura e tag de fechamento, alguns elementos não tem conteúdo nem tag de fechamento, tais elementos são conhecidos como elementos vazios 
+          </p><br>
+          <p>
+            Alguns elementos vazios são:<br>
+            <code>&lsaquo;br&rsaquo;</code> => Representa uma quebra de linha;<br> 
+            <code>&lsaquo;hr&rsaquo;</code> => Representa uma linha horizontal; etc.
+          </p><br>
+          <p>
+            <strong>Elementos <acronym title="HyperText Markup Language">HTML</acronym> Aninhados:</strong> Os elementos <acronym title="HyperText Markup Language">HTML</acronym> podem ser aninhados, que significa um elemento pode conter outro elemento.
+          </p>
+          <br>
+          <hr>
+
+          <h2>Elementos <acronym title="HyperText Markup Language">HTML</acronym> em Bloco e em Linha</h2>
+          <br>
+          <p>
+            Por padrão de apresentação no ecrã e propósitos de estilização no <acronym title="HyperText Markup Language">HTML</acronym>, os elementos são divididos em duas categorias:
+          </p>
+          <ul>
+            <li>Elementos em Bloco </li>
+            <li>Elementos em Linha</li>
+          </ul>
+          <br>
+          <hr>
+          
+          <h3>Elementos em Bloco:</h3>
+          <ul>
+            <li>
+              Estes são os elemntos, que estruturam a parte principal da página web, dividindo a página em blocos coerentes <strong>Um abaixo do outro.</strong>
+            </li>
+            <li>
+              Um elemento em Bloco sempre começa com uma nova linhae toma para sí toda largura da página web, da esquerda para direita.
+            </li>
+            <li>
+              Estes elementos contem elementos em Bloco e elementos em Linha.
+            </li>
+          </ul>
+          <br>
+          <p>
+            A seguir apresentamos os elementos em Bloco no <acronym title="HyperText Markup Language">HTML</acronym>.
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/elementos_em_bloco.png" 
+            alt="Imagem dos elementos em Bloco" class="bloco">
+          </div>
+          <br>
+          <p>
+            <strong>Nota:</strong> Todos estes elementos são descritos nos capitulos posteriores.
+          </p>
+          <br>
+          <hr>
+          <br>
+          
+          <h3>Elementos em Linha:</h3>
+
+          <ul>
+            <li>
+              Os elementos em linha são aqueles que diferenciam a parte de um texto dado em o provê uma função particular.
+            </li>
+            <li>
+              Estes elementos não iniciam uma nova linha em tomam a largura que necessitam.
+            </li>
+            <li>Os elementos em linha são mais usados com outros elementos.</li>
+          </ul>
+          <br>
+          <p>
+            A seguir apresentamos os elementos em Bloco no <acronym title="HyperText Markup Language">HTML</acronym>.
+          </p>
+          <br>
+
+          <div class="code-example">
+            <img src="/code_images/elementos_em_linha.png" 
+            alt="Imagem dos elementos em Linha" class="linha">
+          </div>
+          <br>
+          <h3>Exemplo</h3>
+          <div class="code-example">
+            <img src="/code_images/exemplo_de_elementos_em_linha_Aula5.png" 
+            alt="Exemplos com elementos em Linha">
+          </div>
+          <h3>Resultado do código acima no navegador web</h3>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_de_elementos_em_linha_page_preview_Aula5.png" 
+            alt="Imagem da página do exemplo">
+          </div>
+
+          <br>
+          <hr>
+          <br>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Tag de Abertura</th>
+                <th>conteúdo</th>
+                <th>Tag de fechamento</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tag"><code>&lsaquo;h1&rsaquo;</code> à <code>&lsaquo;h6&rsaquo;</code></td>
+                <td>Estes são os cabeçalhos do <acronym title="HyperText Markup Language">HTML</acronym></td>
+                <td class="tag"><code>&lsaquo;/h1&rsaquo;</code> à <code>&lsaquo;/h6&rsaquo;</code></td>
+                <td>Estes elementos são usados para providenciar os cabeçalhos da páginas</td>
+              </tr>
+              <tr>
+                <td class="tag"><code>&lsaquo;p&rsaquo;</code></td>
+                <td>Esta é uma tag de parágrafo</td>
+                <td class="tag"><code>&lsaquo;/p&rsaquo;</code></td>
+                <td>Este elemento é usado para apresentar um conteúdo em forma de parágrafo</td>
+              </tr>
+              <tr>
+                <td class="tag"><code>&lsaquo;div&rsaquo;</code></td>
+                <td>Esta é a sessão div</td>
+                <td class="tag"><code>&lsaquo;/div&rsaquo;</code></td>
+                <td>Este elemento é usado para providenciar uma sessão na página web</td>
+              </tr>
+              <tr>
+                <td class="tag"><code>&lsaquo;br&rsaquo;</code></td>
+                <td>É um elemento vazio</td>
+                <td class="tag"></td>
+                <td>Este elemento é usado para providenciar uma quebra de linha</td>
+              </tr>
+              <tr>
+                <td class="tag"><code>&lsaquo;hr&rsaquo;</code></td>
+                <td>è um elemento vazio</td>
+                <td class="tag"></td>
+                <td>Este elemento é usado para providenciar uma linha horizontal</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <hr>
+          <br>
+          
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
