@@ -17,9 +17,536 @@
       <main class="main-container">
         <section class="main-content">
           <h2>Formatação do HTML</h2>
+          <br>
           <p>
-            <strong>A Formatação do HTML</strong> é um processo de formatação de texto para a apresentação do documento. O <acronym title="HyperText Markup Language">HTML</acronym> providencia-nos a abilidade de formatar texto sem usar <acronym title="Cascading Style Sheet">CSS</acronym>
+            <strong>A Formatação do HTML</strong> é um processo de formatação de texto para a apresentação do documento. O <acronym title="HyperText Markup Language">HTML</acronym> providencia-nos a abilidade de formatar texto sem usar <acronym title="Cascading Style Sheet">CSS</acronym>. Há muitas tags de formatação no <acronym title="HyperText Markup Language">HTML</acronym>. Estas tags são usadas para transformar o texto em negrito, itálico ou sublinhado. Há quase 14 opções disponíveis para manipular a forma que o texto aparece no <acronym title="HyperText Markup Language">HTML</acronym> e <acronym title="Extensible HyperText Markup Language">XHTML</acronym>.
           </p>
+          <br>
+          <p>
+            No <acronym title="HyperText Markup Language">HTML</acronym> a formatação de tags é dividida em duas categorias:
+          </p>
+          <br>
+          <ul>
+            <li>
+              <strong>Tag Física:</strong> Estas tags são usadas para providenciar a aparência visual do texto.
+            </li>
+            <li>
+              <strong>Tag Lógica</strong> Estas tags são usadas para adicionar algum valor lógico ou semantico para o texto.
+            </li>
+          </ul>
+          <br>
+          <p>
+            <strong>Nota:</strong> Há algumas tags físicas e lógicas que podem dar aparência visual, mas elas serão diferentes na semântica.
+          </p>
+          <br>
+          <p>
+            Aqui, nós vamos aprender 14 tags de formatação do <acronym title="HyperText Markup Language">HTML</acronym>. A seguir apresentamos a lista das tags de formatação de texto.
+          </p>
+          <br>
+          <hr>
+          <br>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Nome do Elemento
+                </th>
+                <th>
+                  Descrição do Elemento
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;b&rsaquo;</code>
+                </td>
+                <td>
+                  Esta é uma tag física, que é usada para negritar o texto entre ela
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;strong&rsaquo;</code>
+                </td>
+                <td>
+                  Está é uma tag lógica que diz ao navegador que o texto é importante
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;i&rsaquo;</code>
+                </td>
+                <td>
+                  Esta é uma tag física que é usada para transformar o texto em itálico
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;em&rsaquo;</code>
+                </td>
+                <td>
+                  Esta é uma tag lógica que é usada para apresentar o conteúdo em itálico
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;mark&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para realçar o texto
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;u&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para sublinhar o texto entre elas
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;tt&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para o texto aparecer no teletype ou teletipo.(Não suportada no HTML5)
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;strike&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para desenhar uma linha sobre uma secção do texto. (Não suportado no HTML5)
+                </td>
+              </tr>
+
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;sup&rsaquo;</code>
+                </td>
+                <td>
+                  Apresenta o o conteúdo ligeiramente acima da línha normal
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;sub&rsaquo;</code>
+                </td>
+                <td>
+                  Apresenta o o conteúdo ligeiramente abaixo da línha normal
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;del&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para apresentar o conteúdo deletado.
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;ins&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag apresenta o conteúdo que é adicionado
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;big&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para aumentar o tamanho da fonte por uma unidade convencional
+                </td>
+              </tr>
+              <tr>
+                <td class="tag">
+                  <code>&lsaquo;small&rsaquo;</code>
+                </td>
+                <td>
+                  Esta tag é usada para diminuiro tamanho da fonte por uma unidade basr do tamanho da fonte
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2>1) Negritar Texto</h2>
+          <br>
+          <p>
+            Os elementos de formatação HTML <code>&lsaquo;b&rsaquo;</code> e <code>&lsaquo;strong&rsaquo;</code><br>O elemento <acronym title="HyperText Markup Language">HTML</acronym> <code>&lsaquo;b&rsaquo;</code> é uma tag física que apresenta o texto na fonte negrito sem nenhuma importância lógica. Se voce escrever qualquer coisa dentro do elemento <code>&lsaquo;b&rsaquo;</code> ... ... <code>&lsaquo;/b&rsaquo;</code> as letras são apresentadas em negrito. 
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_negritado_Aula6_pt.png" 
+            alt="Foto de código com texto em negrito">
+          </div>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_negritado_page_preview_Aula6_pt.png" 
+            alt="Página com texto negritado">
+          </div>
+          <br>
+          <p>
+            A tag <code>&lsaquo;strong&rsaquo;</code> do <acronym title="HyperText Markup Language">HTML</acronym>, é uma tag lógica, que apresenta o conteúdo em fonte Negritado e informa ao navegador sobre a sua importancia lógica. Se voce escreve qualquer coisa dentro da tag <code>&lsaquo;strong&rsaquo;</code> ???????? <code>&lsaquo;strong&rsaquo;</code>, mostra que o texto é importante.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_negritado_strong_Aula6_pt.png" 
+            alt="Texto negritado com tag strong">
+          </div>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_negritado_strong_page_preview_Aula6_pt.png" 
+            alt="Pagina texto negritado com strong">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>2) Texto Itálico</h2>
+          <br>
+          <p>
+            <strong>Formatando <acronym title="HyperText Markup Language">HTML</acronym> com elementos <code>&lsaquo;i&rsaquo;</code> e <code>&lsaquo;em&rsaquo;</code></strong>
+          </p>
+          <br>
+          <p>
+            O elemento <acronym title="HyperText Markup Language">HTML</acronym> <code>&lsaquo;i&rsaquo;</code> é um elemento físico que apresenta o conteúdo entre elas em fonte Itálico, sem nenhuma importância adicionada. Se voce escrever qualquer coisa dentro do elemento <code>&lsaquo;i&rsaquo;</code> ... ... <code>&lsaquo;/i&rsaquo;</code>, é mostrado em letras itálicas. 
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_italico_Aula6_pt.png" 
+            alt="Exemplo de texto em Itálico">
+          </div>
+          <br>
+          <p>
+            Resultado do código anterior
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_italico_page_preview_Aula6_pt.png" 
+            alt="Página com texto itálico">
+          </div>
+          <br>
+          <p>
+            A tag <acronym title="HyperText Markup Language">HTML</acronym> <code>&lsaquo;em&rsaquo;</code> é um elemento lógico, que apresentará o conteúdo nela contido com fonte Itálico com a importância semântica adicionada.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_italico_em_Aula6_pt.png" 
+            alt="Texto itálico com tag em">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_italico_em_page_preview_Aula6_pt.png" 
+            alt="Página com texto em itálico">
+          </div>
+          <br>
+          <hr>
+          <br>
+
+          <h2>
+            3) Formatação com a tag marked no <acronym title="HyperText Markup Language">HTML</acronym>
+          </h2>
+          <br>
+          <p>
+            Se voce quer marcar ou realçar um texto, voce deve escrever o conteúdo dentro da tag <code>&lsaquo;mark&rsaquo;</code>... ... <code>&lsaquo;/mark&rsaquo;</code>
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_com_marca.png" 
+            alt="Exemplo de texto marcado">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_com_marca_page_preview.png" 
+            alt="Página com texto marcado">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <h2>4) Sublinhando Texto</h2>
+          <br>
+          <p>
+            Se voce escrever qualquer coisa dentro do elemento <code>&lsaquo;u&rsaquo;</code> ... ... <code>&lsaquo;/u&rsaquo;</code>, é mostrado um texto sublinhado.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_sublinhado.png" 
+            alt="exemplo com texto sublinhado">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_sublinhado_page_preview.png" 
+            alt="Página com texto sublinhado">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <h2>5) Texto riscado</h2>
+          <br>
+          <p>
+            Qualquer coisa escrita dentro do elemento <code>&lsaquo;strike&rsaquo;</code> ... ... <code>&lsaquo;/strike&rsaquo;</code> é apresentado com tachado. Isso é uma linha fina que atravessa a frase.  
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_riscado.png" 
+            alt="exemplo texto riscado">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br><div class="page-preview">
+            <img src="/code_images/exemplo_texto_riscado_page_preview.png" 
+            alt="página com texto riscado">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>6) Fonte Monospaced</h2>
+          <br>
+          <p>
+            Se voce quer que cada letra tenha a mesma largura, então voce devia escrever o conteúdo denro do elemento <code>&lsaquo;tt&rsaquo;</code> ... ... <code>&lsaquo;/tt&rsaquo;</code>.
+          </p>
+          <br>
+          <p>
+            <strong>Nota:</strong> Nós sabemos que a maioria das fontes são conhecidas como fontes de largura variável porque tem letras diferentes com larguras diferentes. (Por exemplo: <strong>w</strong> é mais largo que <strong>i</strong>). Fontes Monospaced providenciam espaço similar enre todas letras. 
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_fonte_monospaced.png" 
+            alt="exemplo com fonte monospaced">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_fonte_monospaced_page_preview.png" 
+            alt="Página com fonte monospaced">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <h2>7)Texto Sobrescrito</h2>
+          <br>
+          <p>
+            Se voce põe o conteúdo dentro do elemento <code>&lsaquo;sup&rsaquo;</code> ... ... <code>&lsaquo;/sup&rsaquo;</code>, ele mostra-o sobrescrito; Significa que é apresentada a metade da altura do caractere acima dos outros caracteres
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_sobrescrito.png" 
+            alt="exemplo de texto sobrescrito">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_page_preview_sobrescrito.png" 
+            alt="página com texto sobrescrito">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>8) Texto Subscrito</h2>
+          <br>
+          <p>
+            Se voce meter o texto dentro do elemento <code>&lsaquo;sub&rsaquo;</code> ... ... <code>&lsaquo;/sub&rsaquo;</code>, será mostrado em texto subscrito; Significa que metade do caractere é apresentado abaixo de outros caracteres.  
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_subscrito_page.png" 
+            alt="exemplo texto subscrito">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_subscrito_page_preview.png" 
+            alt="página com texto subscrito">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>9) Texto Deletado/Apagado</h2>
+          <br>
+          <p>
+            Qualquer coisa escrita dentro da tag <code>&lsaquo;del&rsaquo;</code> ... ... <code>&lsaquo;/del&rsaquo;</code> é apresentado com texto deletado.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <br>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_deletado.png" 
+            alt="exemple de texto deletado">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_deletado_page_preview.png" 
+            alt="página com texto deletado.">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>10) Texto Inserido</h2>
+          <br>
+          <p>
+            Qualquer coisa que escrevemos dentro da tag <code>&lsaquo;ins&rsaquo;</code> ... ... <code>&lsaquo;/ins&rsaquo;</code> é apresentado como texto inserido.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_inserido.png" 
+            alt="exemplo de texto inserido">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_inserido_page_preview.png" 
+            alt="página com texto inserido">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>11) Texto mais Largo</h2>
+          <br>
+          <p>
+            Se voce quer meter o tamanho da fonte maior que o resto do texto, então escreva-o dentro da tag <code>&lsaquo;big&rsaquo;</code> ... ... <code>&lsaquo;/big&rsaquo;</code> ela aumenta um tamanho de fonte maior que o anterior.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <div class="code-example">
+            <img src="/code_images/exemplo_de_texto_maior.png" 
+            alt="exemplo de texto maior">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_de_texto_maior_page_preview.png" 
+            alt="página com texto maior">
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+          <h2>12) Texto mais Pequeno</h2>
+          <br>
+          <p>
+            Se voce quer meter a fonte do seu texto mas pequeno que o resto do texto então escreva o conteúdo dentro da tag <code>&lsaquo;small&rsaquo;</code> ... ... <code>&lsaquo;/small&rsaquo;</code> ela reduz um tamanho de fonte em relação ao anterior.
+          </p>
+          <br>
+          <p>
+            vamos praticar fazendo o exercício abaixo:
+          </p>
+          <div class="code-example">
+            <img src="/code_images/exemplo_texto_menor.png" 
+            alt="exemplo de código menor">
+          </div>
+          <br>
+          <p>
+            Veja o resultado do código anterior na página abaixo.
+          </p>
+          <br>
+          <div class="page-preview">
+            <img src="/code_images/exemplo_texto_menor_page_preview.png" 
+            alt="página com texto menor">
+          </div>
+
         </section>
 
       </main>

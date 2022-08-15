@@ -111,6 +111,9 @@ img {
 strong {
   color: var(--pink);
 }
+.bold {
+  font-weight: bold;
+}
 
 table {
   z-index: auto;
